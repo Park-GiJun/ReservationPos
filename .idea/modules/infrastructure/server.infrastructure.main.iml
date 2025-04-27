@@ -38,36 +38,36 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_23">
+  <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../../server/infrastructure/build/classes/kotlin/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../server/infrastructure/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../server/infrastructure/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../server/infrastructure/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:2.1.20" level="project" />
     <orderEntry type="library" name="Gradle: io.github.microutils:kotlin-logging-jvm:3.0.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.7.3" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:2.1.20" level="project" />
     <orderEntry type="module" module-name="server.domain.main" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-r2dbc:3.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.r2dbc:r2dbc-h2:1.0.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: dev.miku:r2dbc-mysql:0.8.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.20" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:2.0.9" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:3.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-reactive:1.7.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-core:3.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:23.0.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-r2dbc:3.2.0" level="project" />
     <orderEntry type="library" name="Gradle: io.r2dbc:r2dbc-pool:1.0.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:3.2.0" level="project" />
     <orderEntry type="library" name="Gradle: io.r2dbc:r2dbc-spi:1.0.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: com.h2database:h2:2.2.224" level="project" />
-    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-core:3.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor.addons:reactor-extra:3.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor.netty:reactor-netty:1.1.13" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.1.20" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:3.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:3.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:3.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: jakarta.annotation:jakarta.annotation-api:2.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-core:6.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-r2dbc:6.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-relational:3.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-commons:3.2.0" level="project" />
@@ -75,18 +75,45 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-tx:6.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:6.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:6.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:6.1.1" level="project" />
     <orderEntry type="library" name="Gradle: io.projectreactor.addons:reactor-pool:1.0.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.4" level="project" />
-    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.4.11" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.21.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:2.0.9" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:6.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:3.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:3.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:3.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.annotation:jakarta.annotation-api:2.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:2.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor.netty:reactor-netty-http:1.1.13" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor.netty:reactor-netty-core:1.1.13" level="project" />
     <orderEntry type="library" name="Gradle: com.github.jsqlparser:jsqlparser:4.6" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:6.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:6.1.1" level="project" />
     <orderEntry type="library" name="Gradle: io.micrometer:micrometer-observation:1.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:6.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.4.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.21.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:2.0.9" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver-dns:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.micrometer:micrometer-commons:1.12.0" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.4.11" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.21.1" level="project" />
-    <orderEntry type="library" name="Gradle: io.micrometer:micrometer-commons:1.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver-dns-classes-macos:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-dns:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-classes-epoll:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.101.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.projectreactor.netty.incubator:reactor-netty-incubator-quic:0.1.13" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.netty.incubator:netty-incubator-codec-native-quic:linux-x86_64:0.0.52.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.netty.incubator:netty-incubator-codec-classes-quic:0.0.52.Final" level="project" />
   </component>
 </module>

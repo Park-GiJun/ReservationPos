@@ -5,18 +5,17 @@ plugins {
 }
 
 dependencies {
-    // Spring Data R2DBC
-    implementation("org.springframework.boot:spring-boot-starter-data-r2dbc")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
-    
-    // 로깅
+    // 코루틴 (suspend, Flow 지원)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+
+    // Spring Data R2DBC 어노테이션 지원 (ex: @Table, @Id)
+    implementation("org.springframework.data:spring-data-relational")
+
+    // 로깅 (선택)
     implementation("io.github.microutils:kotlin-logging-jvm:3.0.5")
-    
+
     // 테스트
-    testImplementation("org.springframework.boot:spring-boot-starter-test") {
-        exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
-    }
-    testImplementation("io.projectreactor:reactor-test")
+    testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
 // bootJar 태스크를 명시적으로 비활성화

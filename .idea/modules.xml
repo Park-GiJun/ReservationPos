@@ -3,6 +3,22 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ReservationPos.iml" filepath="$PROJECT_DIR$/ReservationPos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server.iml" filepath="$PROJECT_DIR$/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/server.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/server.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/server.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/server.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/server.api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api/server.api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/server.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/server.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/server.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/server.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/server.app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/server.app.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/server.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/server.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/server.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/server.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/server.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/server.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/server.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/server.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/server.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/server.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/server.domain.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/server.domain.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/server.infrastructure.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/server.infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/server.infrastructure.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/server.infrastructure.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/server.infrastructure.test.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/server.infrastructure.test.iml" />
     </modules>
   </component>
 </project>

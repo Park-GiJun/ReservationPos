@@ -7,18 +7,24 @@ plugins {
 
 dependencies {
     implementation(project(":domain"))
-    // core 모듈 의존성 제거
-    
-    // Spring WebFlux
+    implementation(project(":core"))
+
+    // Spring WebFlux (비동기 API 서버)
     implementation("org.springframework.boot:spring-boot-starter-webflux")
-    implementation("org.springframework.boot:spring-boot-starter-validation")
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
-    implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
-    
+
+    // API 문서화 (Swagger/OpenAPI)
+    implementation("org.springdoc:springdoc-openapi-starter-webflux-ui:2.3.0")
+
+    // 코루틴
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.7.3")
+
+    // Reactor Kotlin 확장
+    implementation("io.projectreactor.kotlin:reactor-kotlin-extensions:1.2.1")
+
     // 로깅
     implementation("io.github.microutils:kotlin-logging-jvm:3.0.5")
-    
+
     // 테스트
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
