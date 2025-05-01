@@ -10,11 +10,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/server" />
-            <option value="$PROJECT_DIR$/server/api" />
-            <option value="$PROJECT_DIR$/server/app" />
-            <option value="$PROJECT_DIR$/server/core" />
-            <option value="$PROJECT_DIR$/server/domain" />
-            <option value="$PROJECT_DIR$/server/infrastructure" />
           </set>
         </option>
       </GradleProjectSettings>

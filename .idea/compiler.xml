@@ -2,6 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="com.gijun.reservationpos.server.app.main" target="21" />
+      <module name="com.gijun.reservationpos.server.app.test" target="21" />
+      <module name="com.gijun.reservationpos.server.core.main" target="21" />
+      <module name="com.gijun.reservationpos.server.core.test" target="21" />
+      <module name="reservation-pos" target="21" />
+      <module name="reservation-pos.main" target="21" />
+      <module name="reservation-pos.test" target="21" />
       <module name="server.api" target="23" />
       <module name="server.api.main" target="21" />
       <module name="server.api.test" target="21" />
@@ -23,6 +30,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com.gijun.reservationpos.server.app.main" options="-parameters" />
+      <module name="com.gijun.reservationpos.server.app.test" options="-parameters" />
+      <module name="com.gijun.reservationpos.server.core.main" options="-parameters" />
+      <module name="com.gijun.reservationpos.server.core.test" options="-parameters" />
+      <module name="reservation-pos" options="-parameters" />
+      <module name="reservation-pos.main" options="-parameters" />
+      <module name="reservation-pos.test" options="-parameters" />
       <module name="server.api" options="-parameters" />
       <module name="server.api.main" options="-parameters" />
       <module name="server.api.test" options="-parameters" />

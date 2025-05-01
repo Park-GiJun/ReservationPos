@@ -5,6 +5,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webflux/6.1.1/57bdc41e83ab4dc443155ea9df0332bcc62e4527/spring-webflux-6.1.1.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webflux/6.1.1/af1bb264f195af044c61f46428954b9c0e6017a7/spring-webflux-6.1.1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
